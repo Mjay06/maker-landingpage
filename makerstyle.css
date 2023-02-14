@@ -348,7 +348,7 @@ html{
 
     }
     .main p{
-     font-size: 4pt;
+     font-size: 14pt;
      width: 90%;
     }
     .sect-char{
@@ -366,7 +366,7 @@ html{
        
     }
     .sect-char p{
-        font-size: 4pt;
+        font-size: 14pt;
         width: fit-content;
         text-align: center;
         margin: 0rem 2rem;
@@ -418,7 +418,6 @@ html{
     }
     .plan p{
         width: fit-content;
-        font-size: 4pt;
     }
     .plan img{
         margin-right: 0.5rem;
@@ -447,7 +446,7 @@ html{
         font-size: 4pt;
     }
     .plan.paid img{
-        margin-right: 0.4rem;
+        margin-right: 0.1rem;
     }
     .plan.paid h1{
         width: fit-content;
@@ -455,7 +454,7 @@ html{
     }
     .plan.paid span{
         color: #080c20;
-        font-size: 12pt;
+        font-size: 9pt;
         font-weight: 400;
         position: relative;
         top: -1rem;
