@@ -1,0 +1,42 @@
+section{
+    margin: 0 auto;
+}
+.sect-char{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    
+
+}
+.sect-char h1{
+    font-size: 14pt;
+    text-align: left;
+    width: inherit;
+}
+.sect-char p{
+    font-size: 9pt;
+    width: 200px;
+    text-align: left;
+
+
+}
+.sect-char img{
+    width: 70px;
+}
+.sect-char .image{
+    padding: 0rem;
+    background-color: rgba(40, 226, 226, 0.397);
+    width: 120px;
+    height: 120px;
+    border-radius: 2rem;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+.char-each{
+    margin: 2rem;
+}
+.char-each.odd{
+    margin-top: 5rem;
+}

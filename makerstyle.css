@@ -1,0 +1,523 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+
+    font-family: 'Manrope', sans-serif;
+    color: white;
+}
+html{
+    background-color: #080c20;
+}
+.main-head{
+    margin: 4rem 0 4rem 12rem;
+}
+.main-info{
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+    background-image: url("./assets-20230213T091610Z-001/assets/illustration-hero-left.svg"), url("./assets-20230213T091610Z-001/assets/illustration-hero-right.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: -4.3%, 103.9%;
+ 
+}
+.main-text{
+    background-image: url("./assets-20230213T091610Z-001/assets/bg-hero-squiggle.svg");
+    margin: 0 auto;
+    width: 550px;
+    background-position: top;
+    padding-top: 6rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.main h1{
+    font-size: 35pt;
+    font-weight: 700;
+    width: 500px;
+    line-height:110%;
+    margin-bottom: 2rem;
+}
+.main h1 span{
+    color: #3ee9e5;
+    width: inherit;
+}
+.main p{
+ font-size: 12pt;
+ width: 500px;
+ margin-bottom: 2rem;
+}
+.main-info img{
+    margin-bottom: 1rem;
+}
+.sect-char{
+    display: flex;
+    justify-content: center;
+    margin-top: 9rem;
+    
+
+}
+.sect-char h1{
+    font-size: 14pt;
+    text-align: left;
+    width: fit-content;
+}
+.sect-char p{
+    font-size: 12pt;
+    width: 200px;
+    text-align: left;
+
+
+}
+.sect-char img{
+    width: 70px;
+}
+.sect-char .image{
+    padding: 0rem;
+    background-color: rgba(40, 226, 226, 0.397);
+    width: 120px;
+    height: 120px;
+    border-radius: 2rem;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+.char-each{
+    margin: 2rem;
+}
+.char-each.odd{
+    margin-top: 5rem;
+}
+.sect-price{
+    text-align: center;
+    margin-top: 9rem;
+    margin-bottom: 4rem;
+}
+.sect-price h1{
+    font-size: 20pt;
+    font-weight: 700;
+    margin: 1rem auto;
+}
+.sect-price p{
+    margin: 0 auto;
+    font-size: 12pt;
+}
+.plans{
+    display: flex;
+    justify-content: center;
+    font-size: 12pt;
+}
+.plan{
+    background-color: rgba(115, 199, 192, 0.397);
+    border-radius: 10px;
+    height: fit-content;
+    padding: 2rem;
+    margin: 7rem 1rem;
+    color: red;
+}
+.plan h2{
+    margin-bottom: 1rem;
+}
+.plan p{
+    width: 400px;
+}
+.plan img{
+    margin-right: 2rem;
+}
+.plan h1{
+    width: fit-content;
+}
+.check{
+    fill: red;
+}
+.free{
+    position: relative;
+    top: -3rem;
+}
+.plan.paid{
+    background-color: rgb(106, 231, 231);
+    color: #080c20;
+}
+.plan.paid h2{
+    margin-bottom: 1rem;
+    color:#080c20;
+}
+.plan.paid p{
+    width: 400px;
+    color: #080c20;
+}
+.plan.paid img{
+    margin-right: 2rem;
+}
+.plan.paid h1{
+    width: fit-content;
+    color: #080c20;
+}
+.plan.paid span{
+    color: #080c20;
+    font-size: 12pt;
+    font-weight: 400;
+    position: relative;
+    top: -1rem;
+}
+.paid{
+    position: relative;
+    top: -4rem;
+}
+.sect-form{
+    margin: 9rem auto 2rem auto;
+    width: 100%;
+}
+.sect-form h1{
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 22pt;
+    padding-top: 2rem ;
+    padding-bottom: 1rem;
+}
+.form-mail{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5rem;
+    padding-top: 1rem;
+}
+.sect-form{
+    background-image: url("./assets-20230213T091610Z-001/assets/bg-footer-squiggle.svg");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.form-mail input{
+    width: 20rem;
+    border: none;
+    padding: 1rem;
+    border-radius: 4rem;
+    font-weight: 700;
+    background-color: rgba(40, 226, 226, 0.397) ;
+    color: white;
+}
+.form-mail input:focus{
+    border: none;
+    border-color: rgba(40, 226, 226, 0.397) ;
+}
+.form-mail button{
+    margin-left: 1rem;
+    border-radius: 4rem;
+    padding: 0.5rem;
+    background-color:rgb(106, 231, 231) ;
+    color: #080c20;
+    border: none;
+    font-weight: 700;
+}
+@media screen and (min-device-width:600px) and (max-device-width: 999px) {
+    .main-head{
+        margin: 4rem 0 4rem 2rem;
+    }
+    
+    .main-info{
+        display: block;
+        text-align: center;
+        margin-top: 2rem;
+        background-image: url("./assets-20230213T091610Z-001/assets/illustration-hero-left.svg"), url("./assets-20230213T091610Z-001/assets/illustration-hero-right.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: -36%, 137%;
+    }
+    .main-text{
+        background-image: url("./assets-20230213T091610Z-001/assets/bg-hero-squiggle.svg");
+        width: fit-content;
+        background-repeat: no-repeat;
+    }
+    .main-text h1{
+        font-size: 24pt;
+        line-height:100%;
+        width: 400px;
+        text-align: center;
+
+    }
+    .main p{
+     font-size: 10.4pt;
+     width: 400px;
+    }
+    .sect-char{
+        display: flex;
+        flex-direction: column;
+
+        
+    }
+    .chartext{
+        text-align: left;
+    }
+    .sect-char h1{
+        font-size: 17pt;
+        margin-bottom:1rem;
+       
+    }
+    .sect-char p{
+        font-size: 14pt;
+        width: 370px;
+    }
+    .sect-char img{
+        width: 100px;
+    }
+    .sect-char .image{
+        padding: 0rem;
+        background-color: rgba(40, 226, 226, 0.397);
+        width: 160px;
+        height: 160px;
+        border-radius: 4rem;
+        margin-right: 3rem;
+    }
+    .char-each{
+        display: flex;
+        margin: 0 auto;
+        place-items: center;
+    }
+    .char-each.odd{
+       margin: 0 6rem; 
+    }
+    .plans{
+        display: block;
+        margin: 7rem;
+    }
+    .sect-form{
+        background-image: url("./assets-20230213T091610Z-001/assets/bg-footer-squiggle.svg");
+        background-repeat:no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+    .form-mail{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 0rem;
+        padding-top: 0rem;
+    }
+    .sect-form h1{
+        text-align: center;
+        width: fit-content;
+        margin: 0 auto;
+        font-size: 19pt;
+        padding-top: 0rem ;
+        padding-bottom: 1rem;
+    }
+
+}
+@media screen and (min-device-width:200px) and (max-device-width: 600px) {
+    body{
+        width: 100%;
+    }
+    .main-head img{
+        margin: 0 auto;
+        display: flex;
+        justify-self: center;
+    }
+    .main-head{
+        margin: 3rem auto;
+        display: grid;
+    }
+    
+    .main-info{
+        display: block;
+        text-align: center;
+        margin-top: 2rem;
+        background-image: url("./assets-20230213T091610Z-001/assets/illustration-hero-left.svg"), url("./assets-20230213T091610Z-001/assets/illustration-hero-right.svg");
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-position: 0% 0%, 100% 0%;
+        width: 100%;
+        padding-top: 15rem ;
+    }
+    .main-text{
+        background-image: none;
+        width: fit-content;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        place-items: center;
+
+    }
+    .main-text h1{
+        font-size: 24pt;
+        line-height:100%;
+        width: 70%;
+        text-align: center;
+        margin-top: -4rem;
+
+    }
+    .main p{
+     font-size: 14pt;
+     width: 90%;
+    }
+    .sect-char{
+        display: grid;
+        justify-content: center;
+        margin-top: 2rem;
+
+        
+    }
+    .sect-char h1{
+        font-size: 17pt;
+        text-align: center;
+        width: fit-content;
+        margin: 1rem auto;
+       
+    }
+    .sect-char p{
+        font-size: 14pt;
+        width: fit-content;
+        text-align: center;
+        margin: 0rem 2rem;
+        
+    }
+    .sect-char img{
+        width: 80px;
+        margin: 0 auto;
+    }
+    .sect-char .image{
+        padding: 0rem;
+        background-color: rgba(40, 226, 226, 0.397);
+        width: 140px;
+        height: 140px;
+        border-radius: 4rem;
+        margin: 0 auto;
+    }
+    .char-each{
+        display: flex;
+        flex-direction: column;
+        margin: 3rem auto;
+        place-items: center;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    .char-each.odd{
+       margin: 0 auto;
+    }
+    .sect-price{
+        display: block;
+    }
+    .sect-price h1{
+        width: fit-content;
+    }
+    .plans{
+        display: block;
+        
+    }
+    .plan{
+        background-color: rgba(115, 199, 192, 0.397);
+        border-radius: 10px;
+        height: fit-content;
+        padding: 2rem;
+        color: red;
+    }
+    .plan h2{
+        margin-bottom: 1rem;
+    }
+    .plan p{
+        width: fit-content;
+    }
+    .plan img{
+        margin-right: 0.5rem;
+    }
+    .plan h1{
+        width: fit-content;
+    }
+    .check{
+        fill: red;
+    }
+    .free{
+        position: relative;
+        top: -3rem;
+    }
+    .plan.paid{
+        background-color: rgb(106, 231, 231);
+        color: #080c20;
+    }
+    .plan.paid h2{
+        margin-bottom: 1rem;
+        color:#080c20;
+    }
+    .plan.paid p{
+        width: fit-content;
+        color: #080c20;
+    }
+    .plan.paid img{
+        margin-right: 0.4rem;
+    }
+    .plan.paid h1{
+        width: fit-content;
+        color: #080c20;
+    }
+    .plan.paid span{
+        color: #080c20;
+        font-size: 12pt;
+        font-weight: 400;
+        position: relative;
+        top: -1rem;
+    }
+    .paid{
+        position: relative;
+        top: -4rem;
+    }
+
+    .sect-form{
+        background-image: url("./assets-20230213T091610Z-001/assets/bg-footer-squiggle.svg");
+        background-repeat:no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+    .form-mail{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 0rem;
+        padding-top: 0rem;
+    }
+    .sect-form h1{
+        text-align: center;
+        width: fit-content;
+        margin: 0 auto;
+        font-size: 19pt;
+        padding-top: 0rem ;
+        padding-bottom: 1rem;
+    }
+    .form-mail{
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        justify-content: center;
+    }
+    .sect-form h1{
+        margin: 0 auto;
+        width: 250px;
+    }
+
+    .form-mail button{
+        width: 20rem;
+        border: none;
+        padding: 1rem;
+        border-radius: 4rem;
+        font-weight: 700;
+        background-color: rgb(106, 231, 231) ;
+        color: white;
+        margin: 0.7rem 0rem;
+    }
+    .form-mail input{
+        width: 20rem;
+        border: none;
+        padding: 1rem;
+        border-radius: 4rem;
+        font-weight: 700;
+        background-color: rgba(40, 226, 226, 0.397) ;
+        color: white;
+    }
+    .sect-form{
+        background-image: url("./assets-20230213T091610Z-001/assets/bg-footer-squiggle.svg");
+        background-repeat:no-repeat;
+        background-size: contain;
+    }
+
+    
+}
