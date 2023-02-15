@@ -275,7 +275,7 @@ html{
         place-items: center;
     }
     .char-each.odd{
-       margin: 0 6rem; 
+       margin: 0 3rem; 
     }
     .plans{
         display: block;
