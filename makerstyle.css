@@ -32,6 +32,32 @@ html{
     background-repeat: no-repeat;
     color: grey;
 }
+.main-text h1{
+    position: relative;
+    left: 0;
+    animation-name: mainanime;
+    animation-duration: 0.7s;
+    animation-timing-function: ease-in-out ;
+
+}
+.main-text p{
+    position: relative;
+    left: 0;
+    animation-name: mainanime;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out ;
+
+
+}
+@keyframes mainanime {
+    from{
+        left: -154px;
+    }
+    t0{
+        left: 0px;
+    }
+    
+}
 .main h1{
     font-size: 35pt;
     font-weight: 700;
@@ -87,6 +113,24 @@ html{
 }
 .char-each{
     margin: 2rem 1rem;
+    position: relative;
+    position: 0;
+   
+}
+.char-each:hover{
+    animation-name: charhov;
+    animation-duration: 0.4s;
+    animation-timing-function: ease;
+    animation-fill-mode:forwards;
+}
+@keyframes charhov{
+    from{
+        top: 0;
+    }
+    to{
+        top: -60px;
+        scale: 1.1;
+    }
 }
 .char-each.odd{
     margin-top: 5rem;
@@ -116,6 +160,13 @@ html{
     height: fit-content;
     padding: 2rem;
     margin: 7rem 1rem;
+}
+.plan:hover{
+    animation-name: charhov;
+    animation-duration: 0.4s;
+    animation-timing-function: ease;
+    animation-fill-mode:forwards;
+
 }
 .plan h2{
     margin-bottom: 1rem;
@@ -212,6 +263,18 @@ html{
     border: none;
     font-weight: 700;
 }
+.form-mail button:hover{
+    color:rgb(106, 231, 231) ;
+    background-color: #080c20;
+    border: solid rgb(106, 231, 231) 1pt ;
+    transition: 0.4s;
+}
+.form-mail button:focus{
+    color:rgb(106, 231, 231) ;
+    background-color: #080c20;
+    border: solid rgb(106, 231, 231) 1pt ;
+    transition: 0.4s;
+}
 @media screen and (min-device-width:600px) and (max-device-width: 999px) {
     .main-head{
         margin: 4rem 0 4rem 2rem;
@@ -275,8 +338,24 @@ html{
         margin: 0 auto;
         place-items: center;
     }
+    .char-each:hover{
+        animation-name: charhov;
+        animation-duration: 0.4s;
+        animation-timing-function: ease;
+        animation-fill-mode:forwards;
+    }
+    @keyframes charhov{
+        from{
+            top: 0;
+        }
+        to{
+            top: -30px;
+            scale: 1.1;
+        }
+    }
     .char-each.odd{
        margin: 0 3rem; 
+
     }
     .plan{
         background-color: hsl(206, 84%, 22%);
